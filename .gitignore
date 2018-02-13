@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/netcore-happypath.data/bin/Debug/netcoreapp2.0
+/netcore-happypath.data/obj
+/netcore-happypath.services/bin/Debug/netcoreapp2.0
+/netcore-happypath.services/obj
+/netcore-happypath.web/bin
+/netcore-happypath.web/obj

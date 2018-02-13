@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore-happypath.web", "netcore-happypath.web\netcore-happypath.web.csproj", "{65C7BF46-4C20-4DA8-B8CC-2131506E9911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore-happypath.services", "netcore-happypath.services\netcore-happypath.services.csproj", "{99E7ACE9-2DBC-4B40-96DC-4F3D0BA9272A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore-happypath.data", "netcore-happypath.data\netcore-happypath.data.csproj", "{66F76EF9-FC93-4F60-89B6-E7DDD60173D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C7BF46-4C20-4DA8-B8CC-2131506E9911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C7BF46-4C20-4DA8-B8CC-2131506E9911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C7BF46-4C20-4DA8-B8CC-2131506E9911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C7BF46-4C20-4DA8-B8CC-2131506E9911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E7ACE9-2DBC-4B40-96DC-4F3D0BA9272A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E7ACE9-2DBC-4B40-96DC-4F3D0BA9272A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E7ACE9-2DBC-4B40-96DC-4F3D0BA9272A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E7ACE9-2DBC-4B40-96DC-4F3D0BA9272A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F76EF9-FC93-4F60-89B6-E7DDD60173D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F76EF9-FC93-4F60-89B6-E7DDD60173D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F76EF9-FC93-4F60-89B6-E7DDD60173D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F76EF9-FC93-4F60-89B6-E7DDD60173D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A575FDEA-9EA3-4BBE-A5F9-8F307194F258}
+	EndGlobalSection
+EndGlobal
