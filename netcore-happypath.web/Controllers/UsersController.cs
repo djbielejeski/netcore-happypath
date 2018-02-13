@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,7 +20,7 @@ namespace netcore_happypath.Controllers
         [HttpGet]
         public List<User> Get()
         {
-            return _userService.GetAll().ToList();
+            return _userService.GetAll().OrderBy(x => x.CreateDateTime).ToList();
         }
 
         [HttpGet("{id}")]
